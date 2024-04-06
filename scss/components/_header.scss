@@ -43,7 +43,8 @@
 			transform: translateX(-50%);
 			width: 100vw;
 			height: 1px;
-			background: $main-color--b;
+			background: $site-color02;
+			// background: $main-color--b;
 		}
 		// ボーダーなし
 		&.-no-b{
@@ -127,7 +128,8 @@
 							transform: translate(-50%, -50%);
 							height: 50%;
 							width: 1px;
-							background: $main-color--b;
+							background: $site-color02;
+							// background: $main-color--b;
 						}
 						&::after{
 							content: "";
@@ -137,7 +139,8 @@
 							transform: translate(-50%, -50%);
 							height: 1px;
 							width: 98%;
-							background: $main-color--b;
+							background: $site-color02;
+							// background: $main-color--b;
 						}
 						.top-left{
 							span{color: $main-color--b;}
@@ -255,7 +258,8 @@
 							transform: translateY(-50%);
 							height: 100%;
 							width: 1px;
-							background: $main-color--b;
+							background: $site-color02;
+							// background: $main-color--b;
 						}
 					}
 					&::after{
@@ -266,7 +270,8 @@
 						transform: translateY(-50%);
 						height: 100%;
 						width: 1px;
-						background: $main-color--b;
+						background: $site-color02;
+						// background: $main-color--b;
 					}
 					a{
 						display: block;

@@ -48,7 +48,8 @@
 				transform: translateX(-50%);
 				width: 100vw;
 				height: 1px;
-				background: $main-color--b;
+				background: $site-color02;
+				// background: $main-color--b;
 				z-index: 1;
 			}
 			&::after{
@@ -59,7 +60,8 @@
 				transform: translateX(-50%);
 				width: 100vw;
 				height: 1px;
-				background: $main-color--b;
+				background: $site-color02;
+				// background: $main-color--b;
 			}
 			&.-colors_04{
 				li{
@@ -92,7 +94,8 @@
 						transform: translateY(-50%);
 						height: 100%;
 						width: 1px;
-						background: $main-color--b;
+						background: $site-color02;
+						// background: $main-color--b;
 					}
 				}
 				&::after{
@@ -103,7 +106,8 @@
 					transform: translateY(-50%);
 					height: 100%;
 					width: 1px;
-					background: $main-color--b
+					background: $site-color02;
+					// background: $main-color--b
 				}
 				a{
 					display: block;
@@ -151,12 +155,13 @@
 					&::before{
 						content: "";
 						position: absolute;
-						top: 59%;
+						top: 50%;
 						left: 0;
 						transform: translateY(-50%);
 						height: 40%;
 						width: 1px;
-						background: $main-color--b;
+						background: $site-color02;
+						// background: $main-color--b;
 						@include min(768){
 							height: 25%;
 						}
@@ -165,12 +170,13 @@
 				&::after{
 					content: "";
 					position: absolute;
-					top: 59%;
+					top: 50%;
 					right: 0;
 					transform: translateY(-50%);
 					height: 40%;
 					width: 1px;
-					background: $main-color--b;
+					background: $site-color02;
+					// background: $main-color--b;
 					@include min(768){
 						height: 25%;
 					}
