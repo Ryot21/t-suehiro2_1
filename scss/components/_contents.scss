@@ -136,6 +136,7 @@
 	}
 	&.-f-view{//ファーストビュー
 		position: relative;
+		overflow: hidden;
 		.c-contentsBox{
 			position: absolute;
 			&.-f-title{
@@ -231,7 +232,18 @@
 					}
 				}
 			}
-
+			// コンセプト
+			&.-concept-sun{
+				top: -40%;
+				left: -20%;
+				width: 100%;
+				opacity: .5;
+			}
+			&.-concept-item01{
+				bottom: 5%;
+				left: 6%;
+    			width: 90%;
+			}
 		}
 	}
 
