@@ -88,7 +88,7 @@
         &.-pc6_4{
             li{
                 @include min(768){
-                    &:nth-child(1){width: calc(60% - 15px);}
+                    &:nth-child(1){width: calc(57.5% - 15px);}
                     &:nth-child(2){width: calc(40% - 15px);}
                 }
             }
@@ -96,8 +96,8 @@
         &.-pc-auto{// 左横幅自由、右60％
             li{
                 @include min(768){
-                    &:nth-child(1){width: auto;}
-                    &:nth-child(2){width: 60%;}
+                    &:nth-child(1){width: 60%;}
+                    &:nth-child(2){width: auto;}
                 }
             }
         }
@@ -269,6 +269,7 @@
     }
     // コンテンツカラム（sp:pc 2:4）
     &.-col2_4{
+        flex-wrap: wrap;
         li{
             @include max(768){
                 width: calc(50% - 5px);

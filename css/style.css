@@ -2720,6 +2720,13 @@ button.swiper-pagination-bullet {
   margin: auto;
 }
 
+@media (width >= 768px) {
+  .w50 {
+    width: 50%;
+    margin: auto;
+  }
+}
+
 @media (768px >= width) {
   .w95s {
     width: 95% !important;
@@ -4876,7 +4883,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-flex.-col1_2.-pc6_4 li:nth-child(1) {
-    width: calc(60% - 15px);
+    width: calc(57.5% - 15px);
   }
   .c-flex.-col1_2.-pc6_4 li:nth-child(2) {
     width: calc(40% - 15px);
@@ -4884,10 +4891,10 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-flex.-col1_2.-pc-auto li:nth-child(1) {
-    width: auto;
+    width: 60%;
   }
   .c-flex.-col1_2.-pc-auto li:nth-child(2) {
-    width: 60%;
+    width: auto;
   }
 }
 .c-flex.-col2_2 {
@@ -5103,6 +5110,9 @@ button.swiper-pagination-bullet {
   .c-flex.-col2_3 li:nth-child(3), .c-flex.-col2_3 li:nth-child(6), .c-flex.-col2_3 li:nth-child(9), .c-flex.-col2_3 li:nth-child(12) {
     margin-left: 15px;
   }
+}
+.c-flex.-col2_4 {
+  flex-wrap: wrap;
 }
 @media (768px >= width) {
   .c-flex.-col2_4 li {
