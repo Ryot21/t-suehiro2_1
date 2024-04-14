@@ -9,7 +9,7 @@
         .swiper-slide{
             text-align: end;
             opacity: .5;
-            overflow: hidden;
+            // overflow: hidden;
             transition: .5s all;
             img{
                 width: 100%;
@@ -25,7 +25,7 @@
                 color: $main-color--b;
                 background: $main-color--w;
                 font-weight: bold;
-                overflow: hidden;
+                // overflow: hidden;
                 img{
                     transition: .5s all;
                     @include max(768){
@@ -145,13 +145,13 @@
         height: 100%;
         // position: inherit;
         .swiper-slide{
-            transform: scale(.8);
+            transform: scale(.85);
             img{
                 pointer-events: auto !important;
             }
             &-active{
                 opacity: 1;
-                transform: scale(1) !important;
+                transform: scale(.95) !important;
             }
             &:hover{
                 opacity: 1;

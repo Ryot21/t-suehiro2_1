@@ -136,7 +136,7 @@
 .c-img{
     // ボーダー枠
     &.-b-frame{
-        border: 2px solid $main-color--b;
+        border: 1px solid $main-color--b;
         overflow: hidden;
         &.-left{
             border-top: 2px solid $main-color--b;
