@@ -137,6 +137,9 @@
 	&.-f-view{//ファーストビュー
 		position: relative;
 		overflow: hidden;
+		.imgBox{
+			
+		}
 		.c-contentsBox{
 			position: absolute;
 			&.-f-title{

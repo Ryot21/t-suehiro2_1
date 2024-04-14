@@ -124,9 +124,9 @@
 }
 
 .colorBox{
-    background: $site-color02;
+    background: $site-color04;
     padding: 3% 0 6%;
-    border-radius: 5px;
+    // border-radius: 5px;
     @include min(768){
         padding: 3% 0 4%;
     }
@@ -157,6 +157,6 @@
     }
 }
 .box-r{
-    border-radius: 20px;
+    border-radius: 50%;
     overflow: hidden;
 }

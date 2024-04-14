@@ -291,6 +291,25 @@
             }
         }
     }
+    // コンテンツ_カラム（sp,pc:5）
+    &.-col2_5{
+        flex-wrap: wrap;
+        li{
+            @include max(768){
+                width: calc(50% - 5px);
+                &:nth-child(odd){margin-right: 5px;}
+                &:nth-child(even){margin-left: 5px;}
+            }
+            @include min(768){
+                width: calc(20% - 10px);
+                &:nth-child(1){margin-right: 10px;}
+                &:nth-child(2),
+                &:nth-child(3),
+                &:nth-child(4){margin: 0 5px;}
+                &:nth-child(5){margin-left: 10px;}
+            }
+        }
+    }
 
 
     // コンテンツ_カラム（sp,pc:5）

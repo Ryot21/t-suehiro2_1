@@ -262,7 +262,7 @@ h1.-color03, h2.-color03, h3.-color03, h4.-color03, h5.-color03, h6.-color03, p.
   color: #eaaa1e !important;
 }
 h1.-color04, h2.-color04, h3.-color04, h4.-color04, h5.-color04, h6.-color04, p.-color04, a.-color04, span.-color04, label.-color04, button.-color04 {
-  color: #a0a0a0 !important;
+  color: #6bb949 !important;
 }
 h1.-house_c01, h2.-house_c01, h3.-house_c01, h4.-house_c01, h5.-house_c01, h6.-house_c01, p.-house_c01, a.-house_c01, span.-house_c01, label.-house_c01, button.-house_c01 {
   color: #b6b343;
@@ -399,7 +399,7 @@ h1.s-3L, h2.s-3L, h3.s-3L, h4.s-3L, h5.s-3L, h6.s-3L, p.s-3L, a.s-3L, span.s-3L,
 }
 h1.s-kome, h2.s-kome, h3.s-kome, h4.s-kome, h5.s-kome, h6.s-kome, p.s-kome, a.s-kome, span.s-kome, label.s-kome, button.s-kome {
   font-size: 1rem;
-  color: #dacebc;
+  color: #3b3b3b;
   transform: scale(0.8);
 }
 @media (width >= 768px) {
@@ -2832,9 +2832,8 @@ button.swiper-pagination-bullet {
 }
 
 .colorBox {
-  background: #308bcc;
+  background: #6bb949;
   padding: 3% 0 6%;
-  border-radius: 5px;
 }
 @media (width >= 768px) {
   .colorBox {
@@ -2863,7 +2862,7 @@ button.swiper-pagination-bullet {
 }
 
 .box-r {
-  border-radius: 20px;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -3305,7 +3304,7 @@ button.swiper-pagination-bullet {
   background: #eaaa1e;
 }
 .c-footer__contactArea .c-footer__contactLists.-colors_04 li:hover:nth-child(4) {
-  background: #a0a0a0;
+  background: #6bb949;
 }
 .c-footer__contactArea .c-footer__contactLists li {
   position: relative;
@@ -4382,7 +4381,7 @@ button.swiper-pagination-bullet {
   background: #eaaa1e !important;
 }
 .c-contents_title.-b-btm.-c04::after {
-  background: #a0a0a0 !important;
+  background: #6bb949 !important;
 }
 .c-contents_title.-en-color01::before {
   color: rgba(48, 139, 204, 0.5137254902);
@@ -4394,7 +4393,7 @@ button.swiper-pagination-bullet {
   color: #eaaa1e;
 }
 .c-contents_title.-en-color04::before {
-  color: #a0a0a0;
+  color: #6bb949;
 }
 .c-contents_title.-gaikou::before {
   content: "EXTERIOR";
@@ -5149,6 +5148,34 @@ button.swiper-pagination-bullet {
     width: calc(65% - 15px);
   }
 }
+.c-flex.-col2_5 {
+  flex-wrap: wrap;
+}
+@media (768px >= width) {
+  .c-flex.-col2_5 li {
+    width: calc(50% - 5px);
+  }
+  .c-flex.-col2_5 li:nth-child(odd) {
+    margin-right: 5px;
+  }
+  .c-flex.-col2_5 li:nth-child(even) {
+    margin-left: 5px;
+  }
+}
+@media (width >= 768px) {
+  .c-flex.-col2_5 li {
+    width: calc(20% - 10px);
+  }
+  .c-flex.-col2_5 li:nth-child(1) {
+    margin-right: 10px;
+  }
+  .c-flex.-col2_5 li:nth-child(2), .c-flex.-col2_5 li:nth-child(3), .c-flex.-col2_5 li:nth-child(4) {
+    margin: 0 5px;
+  }
+  .c-flex.-col2_5 li:nth-child(5) {
+    margin-left: 10px;
+  }
+}
 .c-flex.-col5 li {
   width: 20%;
 }
@@ -5414,10 +5441,10 @@ button.swiper-pagination-bullet {
   color: #eaaa1e;
 }
 .c-tabArea .tab-item.-c04 {
-  border-bottom: 1px solid #a0a0a0;
+  border-bottom: 1px solid #6bb949;
 }
 .c-tabArea .tab-item.-c04 span {
-  color: #a0a0a0;
+  color: #6bb949;
 }
 .c-tabArea input:checked + .tab-item {
   border-top: 1px solid #3b3b3b;
@@ -5460,10 +5487,10 @@ button.swiper-pagination-bullet {
 }
 .c-tabArea input:checked + .tab-item.-c04 {
   color: #ffffff !important;
-  background: #a0a0a0;
-  border-top: 1px solid #a0a0a0;
-  border-left: 1px solid #a0a0a0;
-  border-right: 1px solid #a0a0a0;
+  background: #6bb949;
+  border-top: 1px solid #6bb949;
+  border-left: 1px solid #6bb949;
+  border-right: 1px solid #6bb949;
 }
 .c-tabArea input:checked + .tab-item.-c04 span {
   color: #ffffff;
@@ -6163,10 +6190,10 @@ a {
   color: #eaaa1e;
 }
 .c-tabArea .tab-item.-c04 {
-  border-bottom: 1px solid #a0a0a0;
+  border-bottom: 1px solid #6bb949;
 }
 .c-tabArea .tab-item.-c04 span {
-  color: #a0a0a0;
+  color: #6bb949;
 }
 .c-tabArea input:checked + .tab-item {
   border-top: 1px solid #3b3b3b;
@@ -6209,10 +6236,10 @@ a {
 }
 .c-tabArea input:checked + .tab-item.-c04 {
   color: #ffffff !important;
-  background: #a0a0a0;
-  border-top: 1px solid #a0a0a0;
-  border-left: 1px solid #a0a0a0;
-  border-right: 1px solid #a0a0a0;
+  background: #6bb949;
+  border-top: 1px solid #6bb949;
+  border-left: 1px solid #6bb949;
+  border-right: 1px solid #6bb949;
 }
 .c-tabArea input:checked + .tab-item.-c04 span {
   color: #ffffff;
@@ -6298,7 +6325,7 @@ a {
 }
 .d-menu__item.-btm:hover {
   color: #ffffff;
-  background: #a0a0a0 !important;
+  background: #6bb949 !important;
 }
 .d-menu__link {
   padding: 8% 0 !important;
