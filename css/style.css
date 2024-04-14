@@ -4462,6 +4462,10 @@ button.swiper-pagination-bullet {
   content: "OWNER VOICE";
   white-space: nowrap;
 }
+.c-contents_title.-gallery::before {
+  content: "GALLERY";
+  white-space: nowrap;
+}
 .c-contents_title.-sample::before {
   content: "CONTENT TITLE";
   white-space: nowrap;
@@ -6422,6 +6426,22 @@ a {
   }
 }
 .p-location .testBox {
+  width: 100vw;
+  height: 150vh;
+  background: rgba(0, 0, 0, 0.392);
+}
+
+.p-gallery {
+  width: 100vw;
+  height: 100vh;
+  animation: fadeAnime 2s forwards;
+}
+@media (width >= 768px) {
+  .p-gallery {
+    animation: fadeAnime 2s forwards;
+  }
+}
+.p-gallery .testBox {
   width: 100vw;
   height: 150vh;
   background: rgba(0, 0, 0, 0.392);
