@@ -33,6 +33,12 @@
         margin: auto;
     }
 }
+.w35{
+    @include min(768){
+        width: 35%;
+        margin: auto;
+    }
+}
 .w95s{
     @include max(768){
         width: 95% !important;
@@ -42,6 +48,12 @@
 .w90s{
     @include max(768){
         width: 90% !important;
+        margin: auto;
+    }
+}
+.w45s{
+    @include max(768){
+        width: 45% !important;
         margin: auto;
     }
 }
@@ -74,9 +86,9 @@
         }
     }
     &.-solid{
-        border: 1px solid $site-color01;
+        border: 1px solid $main-color--b;
         @include min(768){
-            border: 1px solid $site-color01;
+            border: 1px solid $main-color--b;
         }
     }
 }
@@ -129,6 +141,11 @@
     // border-radius: 5px;
     @include min(768){
         padding: 3% 0 4%;
+    }
+
+    &.-black{
+        background: $main-color--b;
+        border-radius: 5px;
     }
 }
 

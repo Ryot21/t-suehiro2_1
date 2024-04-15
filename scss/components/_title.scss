@@ -70,6 +70,9 @@
     &.-spot{&::before{content: "RECOMMENDED SPOTS"; white-space: nowrap;}}          // スポット
     &.-portfolio{&::before{content: "CONSTRUCTION PORTFOLIO"; white-space: nowrap;}}// 施工例
     &.-owner{&::before{content: "OWNER VOICE"; white-space: nowrap;}}               // オーナー
+    &.-koutsu{&::before{content: "TRAFFIC"; white-space: nowrap;}}                  // 交通
+    &.-bus{&::before{content: "BUS ACCESS"; white-space: nowrap;}}                  // バス
+
 
     &.-gallery{&::before{content: "GALLERY"; white-space: nowrap;}}               // ギャラリー
 
@@ -241,12 +244,12 @@
         }
     }
     &.-stationBox{
-        padding-left: 15%;
+        padding-left: 20%;
         @include min(768){
-            padding-left: 15%;
+            padding-left: 19%;
         }
         @include min(1400){
-            padding-left: 12%;
+            padding-left: 20%;
         }
         &.-ver02{// 駅名「」無しVer
             padding-left: 17%;
@@ -260,40 +263,41 @@
         // 一駅の場合
         &.-s_1 {
             &::after{
-                content: "西武池袋線";
-                top: 42%;
+                content: "JR京浜東北線";
+                top: 35%;
                 font-size: 10px;
                 text-align: center;
-                width: 16%;
+                width: 20%;
                 @include min(768){
-                    top: 65%;
+                    top: 55%;
                     font-size: 10px;
-                    width: 16%;
+                    width: 18.5%;
                 }
                 @include min(1400){
-                    top: 56%;
+                    top: 50%;
                     font-size: 12px;
-                    width: 13%;
+                    width: 20%;
                 }
             }
         }
         // 二駅の場合
         &.-s_2 {
             &::after{
-                content: "西武秩父線 JR八高線";
-                top: 0%;
+                content: "埼玉高速鉄道";
+                top: 35%;
                 font-size: 10px;
                 text-align: center;
-                width: 16%;
+                width: 20%;
                 @include min(768){
+                    content: "埼玉高速鉄道　　埼玉スタジアム線";
                     top: 38%;
                     font-size: 10px;
                     text-align: center;
-                    width: 16%;
+                    width: 18.5%;
                 }
                 @include min(1400){
-                    top: 38%;
-                    width: 13%;
+                    top: 26%;
+                    width: 20%;
                     font-size: 12px;
                 }
             }
@@ -303,6 +307,7 @@
 
     &.-borderBtm{
         margin-bottom: 3%;
+        padding-bottom: 1%;
         @include min(768){
             margin-bottom: 3%;
         }
@@ -312,6 +317,9 @@
             transform: translateX(-50%) scaleY(0.75);
             width: 100%;
             color: $main-color--b;
+            @include min(768){
+                bottom: -20%;
+            }
         }
         // アイコン文頭にある場合のみ、ボーダーの位置を変更する。
         &.-dot{&::before{border-bottom: 3px dotted;}}
